@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.search {
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+ 
+
+
+}
+
+.item {
+  height: 50px;
+  width: 350px;
+  background-color:white;
+  position: relative;
+  left: 500px;
+  padding: 0px;
+  margin: 1px solid blue;
+}
+ 
+.item:hover {
+  background-color: lightblue;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ratios {
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 500px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
